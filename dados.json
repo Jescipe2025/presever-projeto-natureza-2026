@@ -1,0 +1,79 @@
+{
+  "v": 1,
+  "updated": "2026-11-17T12:43:58.135Z",
+  "by": "Marcos André",
+  "solic": {
+    "1": {
+      "c": "Sim",
+      "o": "O campo já se encontra cadastrado na aba de impostos (B1_XNATURE)"
+    },
+    "2": {
+      "c": "Ajustar",
+      "o": "A operação será única e exclusiva para eliminar o cadastro manual no cadastro de produto, isso porque já se encontra pronto na planilha. A importação do excel para o sistema não precisará deixar como rotina."
+    },
+    "3": {
+      "c": "Sim",
+      "o": "O controle será através do cadastro de usuário"
+    },
+    "4": {
+      "c": "Sim",
+      "o": ""
+    },
+    "5": {
+      "c": "Sim",
+      "o": "Com a natureza vinda de forma automática, não será necessário a classe de valor, já que ela servia apenas para filtrar a natureza. Atenção: observar o item 11."
+    },
+    "6": {
+      "c": "Sim",
+      "o": "O lançamento padrão terá que identificar a área de atuação para reconhecer a conta contábil da natureza administrativa ou operacional"
+    },
+    "7": {
+      "c": "Sim",
+      "o": "Opção do item 6"
+    },
+    "8": {
+      "c": "Sim",
+      "o": ""
+    },
+    "9": {
+      "c": "Sim",
+      "o": ""
+    },
+    "10": {
+      "c": "Sim",
+      "o": ""
+    },
+    "11": {
+      "c": "Sim",
+      "o": "Quando o documento é integrado do compras, funciona da forma que foi escrito. Quando o lançamento é realizado no próprio contas a pagar, movimento bancário e contas a receber, infelismente, a classe de valor para filtrar a natureza tem que existir."
+    },
+    "12": {
+      "c": "Sim",
+      "o": ""
+    },
+    "13": {
+      "c": "Sim",
+      "o": ""
+    },
+    "14": {
+      "c": "Sim",
+      "o": "A natureza acompanhará todas as fases da entrada da nota fiscal, seja ela pelo processo de digitação manual ou pelo transmite."
+    }
+  },
+  "pts": {
+    "01": "O cadastro de area de atuação, a exemplo da nota de entrada campo D1_EC05DB. Se o item escolhido for 01 - Administrativo-sede ou 10 - Administrativo-operacional, a opção da conta contábil será administrativo, diferente disso, será a conta contábil operacional do cadastro de natureza.",
+    "02": "LP 650 e 660",
+    "03": "Isso ocorrerá apenas no Compras/Estoque que são a maior carga de notas registradas nas empresas",
+    "04": "Na verdade, a solicitação e nem a nota fiscal não será incluída caso não tenha a natureza cadastrada.",
+    "05": "Quando o produto é escolhido na solicitação ou documento de entrada manual, a natureza se perpetuará até o final da cadeia.",
+    "06": "A rotina de acesso tem que ser construída no cadastro de usuário para que amanhã, o TI consiga retirar ou fornecer o acesso a o indicado pela contabilidade.",
+    "07": "Não precisa, quando no ato da solicitação ou entrada da nota fiscal manual, se não estiver cadastrado o usuário não conseguirá salvar, obrigando a pedir o cadastro a contabilidade.",
+    "08": "Não precisa, o usuário será forçado a pedir.",
+    "09": "Item tratado no item 11"
+  },
+  "aprov": {
+    "status": "Aprovado com os ajustes anotados",
+    "data": "2026-11-17",
+    "nome": "Marcos André"
+  }
+}
